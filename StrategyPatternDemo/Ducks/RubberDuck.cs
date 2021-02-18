@@ -1,7 +1,7 @@
 ﻿using System;
-using MiniDuckSimulator.Behaviors;
+using StrategyPattern.Behaviors;
 
-namespace MiniDuckSimulator.Ducks
+namespace StrategyPattern.Ducks
 {
     public class RubberDuck : Duck
     {
@@ -13,7 +13,7 @@ namespace MiniDuckSimulator.Ducks
 
         public override void Display()
         {
-            Console.WriteLine("I'm a rubber duckie");
+            Console.WriteLine("I'm a rubber duck");
         }
     }
 }

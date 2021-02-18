@@ -3,9 +3,9 @@ using System;
 
 namespace StrategyPattern.Ducks
 {
-    public class RedheadDuck :Duck
+    public class DecoyDuck :Duck
     {
-        public RedheadDuck()
+        public DecoyDuck()
         {
             QuackBehavior = new Quack();
             FlyBehavior = new FlyWithWings();
@@ -13,7 +13,7 @@ namespace StrategyPattern.Ducks
 
         public override void Display()
         {
-            Console.WriteLine("I'm a red head duck");
+            Console.WriteLine("I'm a decoy duck");
         }
     }
 }

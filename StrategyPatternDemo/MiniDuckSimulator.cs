@@ -8,14 +8,26 @@ namespace StrategyPattern
     {
         static void Main(string[] args)
         {
-            Duck mallard = new MallardDuck();
-            mallard.PerformQuack();
-            mallard.PerformFly();
+            Duck MallardDuck = new MallardDuck();
+            MallardDuck.PerformQuack();
+            MallardDuck.PerformFly();
 
-            Duck model = new ModelDuck();
-            model.PerformFly();
-            model.SetFlyBehavior(new FlyRocketPowerd());
-            model.PerformFly();
+            Duck RedHeadDuck = new RedheadDuck();
+            RedHeadDuck.PerformQuack();
+            RedHeadDuck.PerformFly();
+
+            Duck DecoyDuck = new DecoyDuck();
+            DecoyDuck.PerformQuack();
+            DecoyDuck.PerformFly();
+
+            Duck RubberDuck = new RubberDuck();
+            RubberDuck.PerformQuack();
+            RubberDuck.PerformFly();
+           
+            Duck ModelDuck = new ModelDuck();
+            ModelDuck.PerformFly();
+            ModelDuck.SetFlyBehavior(new FlyRocketPowerd());
+            ModelDuck.PerformFly();
 
             Console.ReadLine();
         }

@@ -50,11 +50,13 @@
     <Compile Include="Behaviors\FlyWithWings.cs" />
     <Compile Include="Behaviors\Abstractions\IQuackBehavior.cs" />
     <Compile Include="Ducks\ModelDuck.cs" />
+    <Compile Include="Ducks\DecoyDuck.cs" />
     <Compile Include="Ducks\RedheadDuck.cs" />
     <Compile Include="Ducks\MallardDuck.cs" />
     <Compile Include="Behaviors\MuteQuack.cs" />
     <Compile Include="Behaviors\Quack.cs" />
     <Compile Include="Behaviors\Squeak.cs" />
+    <Compile Include="Ducks\RubberDuck.cs" />
     <Compile Include="MiniDuckSimulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
