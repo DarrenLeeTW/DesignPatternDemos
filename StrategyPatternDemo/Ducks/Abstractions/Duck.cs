@@ -20,12 +20,22 @@ namespace StrategyPattern.Ducks
         public void PerformQuack()
         {
             QuackBehavior.Quack();
-
         }
 
         public void Swim()
         {
             Console.WriteLine("All ducks float, even decoys");
         }
+
+        public void SetFlyBehavior(IFlyBehavior fb)
+        {
+            FlyBehavior = fb;
+        }
+
+        public void SetQuackBehavior(IQuackBehavior qb)
+        {
+            QuackBehavior = qb;
+        }
+
     }
 }

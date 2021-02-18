@@ -43,16 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\FlyRocketPowerd.cs" />
     <Compile Include="Ducks\Abstractions\Duck.cs" />
     <Compile Include="Behaviors\Abstractions\IFlyBehavior.cs" />
     <Compile Include="Behaviors\FlyNoWay.cs" />
     <Compile Include="Behaviors\FlyWithWings.cs" />
     <Compile Include="Behaviors\Abstractions\IQuackBehavior.cs" />
+    <Compile Include="Ducks\ModelDuck.cs" />
+    <Compile Include="Ducks\RedheadDuck.cs" />
     <Compile Include="Ducks\MallardDuck.cs" />
     <Compile Include="Behaviors\MuteQuack.cs" />
     <Compile Include="Behaviors\Quack.cs" />
     <Compile Include="Behaviors\Squeak.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MiniDuckSimulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
